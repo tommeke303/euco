@@ -1,0 +1,22 @@
+#menu-container{
+    padding: 0px 0px !important;
+    
+}
+
+#primary-menu{
+    float: none !important;
+    width: 100vw !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+#menu-list{
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    border-right-style: none !important;
+}
+
+#menu-list > li > a {
+    font-size: 1em !important;
+}
