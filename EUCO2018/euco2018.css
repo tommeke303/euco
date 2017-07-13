@@ -12,9 +12,9 @@
 
 #menu-list{
     float: none !important;
-    width:88%;
-    margin-left: 6% !important;
-    margin-right: 6% !important;
+    width:75%;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
     padding-right: 0px !important;
     border-right-style: none !important;
 }
