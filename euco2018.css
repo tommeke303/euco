@@ -1,20 +1,26 @@
 #menu-container{
-    padding: 0px 0px !important;
-    
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
+
+
 
 #primary-menu{
     float: none !important;
-    width: 100vw !important;
-    margin-right: 0px !important;
-    margin-left: 0px !important;
+    margin-right: 0 !important;
 }
 
 #menu-list{
+    float: none !important;
+    width:88%;
+    margin-left: 6% !important;
+    margin-right: 6% !important;
     padding-right: 0px !important;
-    margin-left: 0px !important;
-    margin-right: 0px !important;
     border-right-style: none !important;
+}
+
+#menu-list > li {
+    margin-left: 0px !important;
 }
 
 #menu-list > li > a {
