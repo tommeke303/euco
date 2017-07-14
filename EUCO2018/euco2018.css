@@ -1,32 +1,34 @@
+#wrapper{
+    opacity: 1 !important;
+}
 #slider{
     margin-top: -24px;
+        height: 523px !important;
 }
-
+#slider_under{
+        height: 523px !important;
+}
 #menu-container{
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
-
-
-
 #primary-menu{
     float: none !important;
     margin-right: 0 !important;
 }
-
 #menu-list{
     float: none !important;
-    width:75%;
-    margin-left: 10% !important;
-    margin-right: 10% !important;
+    width:80%;
+    margin-right:auto !important;
+    margin-left:auto !important;
+    /*margin-right: 10% !important;*/
     padding-right: 0px !important;
     border-right-style: none !important;
 }
-
 #menu-list > li {
+    display: inline;
     margin-left: 0px !important;
 }
-
 #menu-list > li > a {
     font-size: 1em !important;
 }
