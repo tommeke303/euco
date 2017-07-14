@@ -1,13 +1,7 @@
 #wrapper{
     opacity: 1 !important;
 }
-#slider{
-    margin-top: -24px;
-        height: 523px !important;
-}
-#slider_under{
-        height: 523px !important;
-}
+
 #menu-container{
     padding-left: 0 !important;
     padding-right: 0 !important;
