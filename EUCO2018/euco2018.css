@@ -26,3 +26,13 @@
 #menu-list > li > a {
     font-size: 1em !important;
 }
+
+.index-container{
+    width: 95% !important;
+    margin-left: 1.5% !important;
+    margin-right: 1.5% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    
+}
+
