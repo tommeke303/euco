@@ -7,6 +7,10 @@
     padding-right: 0 !important;
 }
 
+#slider{
+    
+    margin-top: -24px !important;
+}
 #primary-menu-trigger{
     margin-top: -6% !important;
     
@@ -16,6 +20,23 @@
     #primary-menu {
         padding-top: 50px !important;
     }
+    
+
+}
+
+@media (min-width: 1200px){
+    .container-menu {
+        width: 1300px !important;
+    }
+}
+
+#logo{
+    margin-right: 20px !important;
+}
+
+#logo_img{
+    padding-bottom: 17px;
+    padding-top: 17px;
 }
 
 #primary-menu{
@@ -53,3 +74,4 @@ footer{
     margin-left: -15px !important;
     margin-right: -15px !important;
 }
+
