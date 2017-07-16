@@ -6,10 +6,23 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
+
+#primary-menu-trigger{
+    margin-top: -6% !important;
+    
+}
+
+@media (max-width: 991px){
+    #primary-menu {
+        padding-top: 50px !important;
+    }
+}
+
 #primary-menu{
     float: none !important;
     margin-right: 0 !important;
 }
+
 #menu-list{
     float: none !important;
     width:80%;
@@ -35,4 +48,5 @@
     padding-right: 0px !important;
     
 }
+
 
