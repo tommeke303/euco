@@ -3051,7 +3051,7 @@ body.side-push-panel.side-panel-open:not(.device-xxs):not(.device-xs):not(.devic
 #page-title {
 	position: relative;
 	padding: 50px 0;
-	background-image: url("images/cropped-collage1-4-1024x213.jpg");
+
 	<!--background-color: #F5F5F5;-->
 	border-bottom: 1px solid #EEE;
 }

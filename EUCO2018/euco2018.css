@@ -28,6 +28,7 @@
 @media (min-width: 992px){
     .container-menu {
         width: 100vw !important;
+        border-bottom: 1px solid #F5F5F5;
     }
     #primary-menu.style-2 ul ul{
         top: 100px !important;
@@ -50,13 +51,19 @@
     }
     
     .submenu-link {
-        width: calc(100vw / 7) !important;
+        width: calc(100vw / 8) !important;
         padding-right:(100vw /2) !important;
         padding-left:(100vw /2) !important;
         margin-left: 0px !important;
         margin-right: 0px !important;
         text-align: center;
         height: 100px !important;
+    }
+    
+    #page-title {
+	   background-image: url("images/euco_banner.png");
+        height: 200px !important;
+        background-size: cover !important;
     }
 }
 
@@ -158,6 +165,10 @@
         background-image: url('images/euco_banner_tablet.png');
         
     }
+    
+    #page-title {
+	   background-image: url("images/euco_banner_tablet.png");
+    }
     #slider{
         visibility: hidden;
     }
@@ -175,6 +186,10 @@
     }
     #slider{
         visibility: hidden;
+    }
+    
+    #page-title {
+	   background-image: url("images/euco_banner_mobiel.png");
     }
 }
 
