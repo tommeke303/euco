@@ -2,13 +2,6 @@
     opacity: 1 !important;
 }
 
-#menu-container{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-
-
 #slider{
     
     margin-top: -24px !important;
@@ -20,7 +13,8 @@
 
 @media (max-width: 991px){
     #primary-menu {
-        padding-top: 50px !important;
+        padding-top: 30px !important;
+        opacity: 10000;
     }
     
     #primary-menu-trigger{
@@ -31,9 +25,38 @@
 
 }
 
-@media (min-width: 1200px){
+@media (min-width: 992px){
     .container-menu {
-        width: 1300px !important;
+        width: 100vw !important;
+    }
+    #primary-menu.style-2 ul ul{
+        top: 100px !important;
+    }
+    #primary-menu{
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        width: 100vw !important;
+        height: 101px !important;
+    }
+    
+    #primary-menu > ul {
+        float: none;
+        width: 100vw !important;
+    }
+    
+    #primary-menu.sub-title > ul > li{
+        margin-left: 0px !important;
+    }
+    
+    .submenu-link {
+        width: calc(100vw / 7) !important;
+        padding-right:(100vw /2) !important;
+        padding-left:(100vw /2) !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        text-align: center;
+        height: 100px !important;
     }
 }
 
@@ -81,4 +104,78 @@
     margin-left: -15px !important;
     margin-right: -15px !important;
 }
+
+.sf-js-enabled{
+    margin
+}
+
+.container-menu{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    height: 100px !important;
+    
+}
+
+
+
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.video-row{
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    
+    height: calc(100vh - 100px) !important;
+}
+
+#header{
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    min-height: 100px !important;
+    z-index: 10000;
+}
+
+#header.full-header #primary-menu > ul{
+    border-right: none !important;
+}
+
+#menu-container{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+
+@media (max-width: 991px){
+    .video-frame{
+        visibility: hidden;
+    }
+    .video-row{
+        height: 20vh !important;
+        background-image: url('images/euco_banner_tablet.png');
+        
+    }
+    #slider{
+        visibility: hidden;
+    }
+}
+
+
+@media (max-width: 450px){
+    .video-frame{
+        visibility: hidden;
+    }
+    .video-row{
+        height: 20vh !important;
+        background-image: url('images/euco_banner_mobiel.png');
+        
+    }
+    #slider{
+        visibility: hidden;
+    }
+}
+
 
