@@ -27,7 +27,7 @@
 
 @media (min-width: 992px){
     .container-menu {
-        width: 100vw !important;
+      
         border-bottom: 1px solid #F5F5F5;
     }
     #primary-menu.style-2 ul ul{
@@ -46,6 +46,9 @@
         width: 100vw !important;
     }
     
+    #primary-menu ul li {
+        margin-left: 0px !important; 
+    }
     #primary-menu.sub-title > ul > li{
         margin-left: 0px !important;
     }
