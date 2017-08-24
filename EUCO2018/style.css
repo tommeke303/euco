@@ -11282,7 +11282,7 @@ button.toast-close-button {
 #copyrights .tright a:last-child { margin-right: 0; }
 
 .footer-logo {
-	display: block;
+	//display: block;
 	margin-bottom: 30px;
 }
 
