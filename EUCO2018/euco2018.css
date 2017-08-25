@@ -3,12 +3,12 @@
 }
 
 #slider{
-    
+
     margin-top: -24px !important;
 }
 #primary-menu-trigger{
     margin-top: -6% !important;
-    
+
 }
 
 @media (max-width: 991px){
@@ -16,18 +16,18 @@
         padding-top: 30px !important;
         opacity: 10000;
     }
-    
+
     #primary-menu-trigger{
         left:auto !important;
         right: 0px !important;
     }
-    
+
 
 }
 
 @media (min-width: 992px){
     .container-menu {
-      
+
         border-bottom: 1px solid #F5F5F5;
     }
     #primary-menu.style-2 ul ul{
@@ -40,19 +40,19 @@
         width: 100vw !important;
         height: 101px !important;
     }
-    
+
     #primary-menu > ul {
         float: none;
         width: 100vw !important;
     }
-    
+
     #primary-menu ul li {
-        margin-left: 0px !important; 
+        margin-left: 0px !important;
     }
     #primary-menu.sub-title > ul > li{
         margin-left: 0px !important;
     }
-    
+
     .submenu-link {
         width: calc(100vw / 8) !important;
         padding-right:(100vw /2) !important;
@@ -62,10 +62,10 @@
         text-align: center;
         height: 100px !important;
     }
-    
+
     #page-title {
 	   background-image: url("images/euco_banner.png");
-        height: 200px !important;
+        height: 400px !important;
         background-size: cover !important;
     }
 }
@@ -107,7 +107,7 @@
     margin-right: 1.5% !important;
     padding-left: 0px !important;
     padding-right: 0px !important;
-    
+
 }
 
 .footer{
@@ -131,7 +131,7 @@
     padding-left: 0px !important;
     padding-right: 0px !important;
     height: 100px !important;
-    
+
 }
 
 
@@ -144,7 +144,7 @@
 .video-row{
     margin-left: -15px !important;
     margin-right: -15px !important;
-    
+
     height: calc(100vh - 100px) !important;
 }
 
@@ -172,9 +172,9 @@
     .video-row{
         height: 20vh !important;
         background-image: url('images/euco_banner_tablet.png');
-        
+
     }
-    
+
     #page-title {
 	   background-image: url("images/euco_banner_tablet.png");
     }
@@ -191,15 +191,13 @@
     .video-row{
         height: 20vh !important;
         background-image: url('images/euco_banner_mobiel.png');
-        
+
     }
     #slider{
         visibility: hidden;
     }
-    
+
     #page-title {
 	   background-image: url("images/euco_banner_mobiel.png");
     }
 }
-
-
