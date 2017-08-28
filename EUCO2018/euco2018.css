@@ -172,13 +172,14 @@
         visibility: hidden;
     }
     .video-row{
-        height: 20vh !important;
+        height: 350px !important;
         background-image: url('images/euco_banner_tablet.png');
 
     }
 
     #page-title {
 	   background-image: url("images/euco_banner_tablet.png");
+	    height:350px;
     }
     #slider{
         visibility: hidden;
@@ -191,7 +192,7 @@
         visibility: hidden;
     }
     .video-row{
-        height: 20vh !important;
+        height: 200px !important;
         background-image: url('images/euco_banner_mobiel.png');
 
     }
@@ -201,5 +202,6 @@
 
     #page-title {
 	   background-image: url("images/euco_banner_mobiel.png");
+	   height:200px ;
     }
 }
