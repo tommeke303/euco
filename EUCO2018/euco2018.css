@@ -205,3 +205,18 @@
 	   height:200px ;
     }
 }
+
+.slider-caption-center{
+    transform: translateY(-25%);
+
+}
+
+
+.switching_text{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 25vw !important;
+    font-size: 1.5em !important;
+    text-align: left;
+}

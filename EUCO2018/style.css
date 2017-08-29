@@ -2795,6 +2795,7 @@ body.side-push-panel.side-panel-open:not(.device-xxs):not(.device-xs):not(.devic
 	margin: 0 auto;
 	left: 0;
 	right: 0;
+    overflow-x: -50%;
 }
 
 .slider-caption-bg {
