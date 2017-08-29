@@ -208,7 +208,7 @@
 
 .slider-caption-center{
     transform: translateY(-25%);
-
+    max-width: 386px !important;
 }
 
 
@@ -216,7 +216,7 @@
     display:block;
     margin-right: auto;
     margin-left: auto;
-    max-width: 25vw !important;
-    font-size: 1.5em !important;
+    max-width: 386px !important;
+    font-size: 170% !important;
     text-align: left;
 }
