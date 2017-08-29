@@ -220,3 +220,12 @@
     font-size: 170% !important;
     text-align: left;
 }
+
+
+.img-partners{
+    max-width: 250px !important;
+    max-height: 250px !important;
+    width: auto !important;
+    height: auto !important;
+    
+}
