@@ -4,14 +4,22 @@
     Replace your Fonts as necessary
 -----------------------------------------------------------------*/
 
+@font-face{
+    font-family: Butler_Regular;
+    src: url("css/fonts/Butler_Regular.otf") format("opentype");
+}
 
+@font-face{
+    font-family: Avenier_Next_LT_Pro;
+    src: url("css/fonts/AvenirNextLTPro-Regular.otf") format("opentype");
+}
 
 body,
 small,
 #primary-menu ul ul a,
 .wp-caption,
 .feature-box.fbox-center.fbox-italic p,
-.skills li .progress-percent .counter { font-family: 'Lato', sans-serif; }
+.skills li .progress-percent .counter { font-family: Avenier_Next_LT_Pro, sans-serif; }
 
 h1,
 h2,
@@ -29,7 +37,7 @@ h6,
 .counter,
 label,
 .wedding-head .first-name,
-.wedding-head .last-name { font-family: 'Raleway', sans-serif; }
+.wedding-head .last-name { font-family: Butler_Regular, sans-serif; }
 
 .entry-meta li,
 .entry-link span,
@@ -41,7 +49,7 @@ label,
 .team-title span,
 .before-heading,
 .wedding-head .first-name span,
-.wedding-head .last-name span { font-family: 'Crete Round', serif; }
+.wedding-head .last-name span { font-family: Butler_Regular, serif; }
 
 
 /* ----------------------------------------------------------------
