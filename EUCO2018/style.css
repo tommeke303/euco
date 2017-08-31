@@ -1028,7 +1028,8 @@ body.stretched #header.full-header .container {
 	font-size: 13px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: 'Raleway', sans-serif;
+    font-family: Butler_Regular, sans-serif !important;
+	font-family: , sans-serif;
 	-webkit-transition: height .4s ease, line-height .4s ease, margin .4s ease, padding .4s ease;
 	-o-transition: height .4s ease, line-height .4s ease, margin .4s ease, padding .4s ease;
 	transition: height .4s ease, line-height .4s ease, margin .4s ease, padding .4s ease;

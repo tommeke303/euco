@@ -95,6 +95,11 @@ body{
     padding-top: 5px;
 }
 
+#header.full-header #primary-menu > ul {
+
+    padding-right: 0px !important;
+}
+
 #primary-menu{
     float: none !important;
     margin-right: 0 !important;
