@@ -54,72 +54,6 @@ body{
 
 /* MENU */
 
-@media (max-width: 991px){
-    #primary-menu {
-        padding-top: 30px !important;
-        opacity: 10000;
-    }
-
-    #primary-menu-trigger{
-        left:auto !important;
-        right: 0px !important;
-    }
-    
-
-}
-
-@media (min-width: 992px){
-    .container-menu {
-        border-bottom: 1px solid #F5F5F5;
-    }
-    #primary-menu.style-2 ul ul{
-        top: 100px !important;
-    }
-    #primary-menu{
-        margin-left: 0px !important;
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-        width: 100vw !important;
-        height: 101px !important;
-    }
-
-    #primary-menu > ul {
-        float: none;
-        width: 100vw !important;
-    }
-
-    #primary-menu ul li {
-        margin-left: 0px !important;
-    }
-    #primary-menu.sub-title > ul > li{
-        margin-left: 0px !important;
-    }
-
-    .submenu-link {
-        width: calc(100vw / 8) !important;
-        padding-right:(100vw /2) !important;
-        padding-left:(100vw /2) !important;
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-        text-align: center;
-        height: 100px !important;
-    }
-
-    #page-title {
-	   background-image: url("images/euco_banner.png");
-        height: 400px !important;
-        background-size: cover !important;
-    }
-
-    .container-menu{
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-    height: 100px !important;
-
-    }
-}
 
 #logo{
     margin-right: 20px !important;
@@ -196,9 +130,168 @@ body{
 
 
 
+
+.slider-caption-center{
+    transform: translateY(-25%);
+    max-width: 386px !important;
+}
+
+
+.switching_text{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 386px !important;
+    font-size: 170% !important;
+    text-align: left;
+}
+/* PARTNERS */
+.fbox-media{
+    border: 3px solid #9fb7ae;
+    border-radius: 8px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.div_partners_4{
+    width: 213px !important;
+    height: 213px !important;
+}
+
+.img-partners_4{
+    height: 200px !important;
+    width: auto !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.div_partners_3{
+    width: 313px !important;
+    height: 313px !important;
+}
+
+.img-partners_3{
+    height: 300px !important;
+    width: auto !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+/* PARTNERS */
+
+.iframe_roadtoeuco{
+    width: 100%;
+    height: w;
+    overflow: hidden;
+    border: none;
+}
+
+
+/* SOCIALE MEDIA */
+
+.social_media_row{
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
+}
+
+.social_media_div{
+    border: 5px solid #12100b;
+    border-radius: 8px;
+    max-width: inherit !important;
+    max-height: 600px;
+    width: auto !important;
+    height: 600px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    
+}
+
+.sociale_media_header{
+    background-color: #12100b;
+    
+}
+
+.sociale_media_header_h1{
+    margin: 0 0 0 0 !important;
+}
+
+.sociale_media_header_h1{
+    color: white !important;
+}
+
+#social_media_frame{
+    max-height: 530px !important;
+}
+
+
+
+@media (min-width: 992px){
+    .container-menu {
+        border-bottom: 1px solid #F5F5F5;
+    }
+    #primary-menu.style-2 ul ul{
+        top: 100px !important;
+    }
+    #primary-menu{
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        width: 100vw !important;
+        height: 101px !important;
+    }
+
+    #primary-menu > ul {
+        float: none;
+        width: 100vw !important;
+    }
+
+    #primary-menu ul li {
+        margin-left: 0px !important;
+    }
+    #primary-menu.sub-title > ul > li{
+        margin-left: 0px !important;
+    }
+
+    .submenu-link {
+        width: calc(100vw / 8) !important;
+        padding-right:(100vw /2) !important;
+        padding-left:(100vw /2) !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        text-align: center;
+        height: 100px !important;
+    }
+
+    #page-title {
+	   background-image: url("images/euco_banner.png");
+        height: 400px !important;
+        background-size: cover !important;
+    }
+
+    .container-menu{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    height: 100px !important;
+
+    }
+}
+
 @media (max-width: 991px){
+    #primary-menu {
+        padding-top: 30px !important;
+        opacity: 10000;
+    }
+
+    #primary-menu-trigger{
+        left:auto !important;
+        right: 0px !important;
+    }
     .video-frame{
-        visibility: hidden;
+        display: none;
     }
     .video-row{
         height: 350px !important;
@@ -213,12 +306,19 @@ body{
     #slider{
         visibility: hidden;
     }
+
+}
+
+@media (max-width: 650px){
+    .social_media_div{
+        display: none;
+    }
 }
 
 
 @media (max-width: 450px){
     .video-frame{
-        visibility: hidden;
+        display: none;
     }
     .video-row{
         height: 200px !important;
@@ -235,34 +335,4 @@ body{
     }
 }
 
-.slider-caption-center{
-    transform: translateY(-25%);
-    max-width: 386px !important;
-}
-
-
-.switching_text{
-    display:block;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 386px !important;
-    font-size: 170% !important;
-    text-align: left;
-}
-
-
-.img-partners{
-    max-width: 250px !important;
-    max-height: 250px !important;
-    max-width: 100% !important;
-    width: auto !important;
-    height: auto !important;
-
-}
-
-.iframe_roadtoeuco{
-    width: 100%;
-    height: w;
-    overflow: hidden;
-    border: none;
-}
+/* SOCIALE MEDIA */

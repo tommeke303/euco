@@ -1,0 +1,17 @@
+@font-face{
+    font-family: Avenier_Next_LT_Pro;
+    src: url("css/fonts/AvenirNextLTPro-Regular.otf") format("opentype");
+}
+
+.tag_name {
+    display: none !important;
+}
+
+.popupWrap {
+    display: none !important;
+}
+
+.load_more_button{
+    background-color: #12100b;
+    font-family: Avenier_Next_LT_Pro !important;
+}
