@@ -77,6 +77,15 @@ body{
     margin-left: auto !important;
 }
 
+.packages-list-titels{
+    font-size:1.2em !important;
+    display: inline !important;
+}
+
+.packages-list-item{
+    margin-bottom: 5px !important;
+}
+
 /* PACKAGES PAGINA */
 
 #logo{
