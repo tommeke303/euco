@@ -34,6 +34,8 @@ body{
     }
 }
 
+
+
 /* MENU */
 
 .sticky-header > #header-wrap > .container-menu,
@@ -54,6 +56,28 @@ body{
 
 /* MENU */
 
+/* INDEX PAGINA */
+
+.euco-artikel{
+    margin-top: 50px !important;
+}
+
+/* INDEX PAGINA */
+
+
+/* PACKAGES PAGINA */
+
+.packages_titel{
+    margin-left: 7%;
+}
+
+.package_blok{
+    max-width: 70%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+/* PACKAGES PAGINA */
 
 #logo{
     margin-right: 20px !important;
@@ -324,6 +348,22 @@ body{
     #slider{
         visibility: hidden;
     }
+    
+    /* PACKAGES PAGINA */
+
+    .packages_titel{
+        margin-left: 10vh;
+    }
+
+    .package_blok{
+        max-width: 90%;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    /* PACKAGES PAGINA */
+    
+    
 
 }
 
