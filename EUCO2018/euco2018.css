@@ -62,6 +62,12 @@ body{
     margin-top: 50px !important;
 }
 
+.eric_artikel_img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
 /* INDEX PAGINA */
 
 
@@ -94,6 +100,11 @@ body{
     font-size: 15px;
     line-height: 0px !important;
     margin: 0 0 0 0;
+}
+
+.packages-container{
+    margin-left: 10vw !important;
+    margin-right: 10vw !important;
 }
 
 /* PACKAGES PAGINA */
