@@ -109,6 +109,16 @@ body{
 
 /* PACKAGES PAGINA */
 
+/* ABOUT PAGINA */
+
+.img-hotel{
+    height: 180px; 
+    width: auto; 
+    display: block;
+}
+
+/* ABOUT PAGINA */
+
 #logo{
     margin-right: 20px !important;
 }
