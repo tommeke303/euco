@@ -21,7 +21,7 @@ body{
 #slider{
 
     margin-top: -24px !important;
-}    
+}
 
 }
 #primary-menu-trigger{
@@ -201,7 +201,7 @@ body{
 }
 /* PARTNERS */
 .fbox-media{
-    border: 3px solid #9fb7ae;
+    <!--border: 3px solid #9fb7ae;-->
     border-radius: 8px;
     margin-right: auto !important;
     margin-left: auto !important;
@@ -264,7 +264,7 @@ body{
     height: 600px;
     padding-left: 0px !important;
     padding-right: 0px !important;
-    
+
 }
 
 .sociale_media_content_1{
@@ -273,7 +273,7 @@ body{
 
 .sociale_media_header{
     background-color: #12100b;
-    
+
 }
 
 .sociale_media_header_h1{
@@ -378,7 +378,7 @@ body{
     #slider{
         visibility: hidden;
     }
-    
+
     /* PACKAGES PAGINA */
 
     .packages_titel{
@@ -392,8 +392,8 @@ body{
     }
 
     /* PACKAGES PAGINA */
-    
-    
+
+
 
 }
 
