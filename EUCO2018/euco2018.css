@@ -119,6 +119,15 @@ body{
 
 /* ABOUT PAGINA */
 
+
+/* PRE-POST PAGINA */
+
+.frankfurt_list{
+    list-style-type: disc;
+}
+
+/* PRE-POST PAGINA */
+
 #logo{
     margin-right: 20px !important;
 }
