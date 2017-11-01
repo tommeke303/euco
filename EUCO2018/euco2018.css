@@ -107,6 +107,17 @@ body{
     margin-right: 10vw !important;
 }
 
+.package-box{
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+}
+
+.package_tekst{
+    padding-left: 15px!important;
+    padding-right: 15px !important;
+}
+
+
 /* PACKAGES PAGINA */
 
 /* ABOUT PAGINA */
@@ -127,6 +138,24 @@ body{
 }
 
 /* PRE-POST PAGINA */
+
+/* EVERYONECOUNTS PAGINA */
+
+.everyonecounts_quote{
+    
+    border-left: 5px solid #9fb7ae;
+}
+
+.everyonecounts_h1{
+    font-size: 580% !important;
+}
+
+.everyonecounts_h2{
+    line-height: 0 !important;
+    font-size: 52px !important;
+}
+
+/* EVERYONECOUNTS PAGINA */
 
 #logo{
     margin-right: 20px !important;
@@ -357,6 +386,8 @@ body{
 	   background-image: url("images/euco_banner.png");
         height: 400px !important;
         background-size: cover !important;
+         background-position-y: center;
+        background-position-x: center;
     }
 
     .container-menu{
@@ -371,6 +402,59 @@ body{
 
 
 /* MEDIA QUERIES */
+@media (min-width: 768px){
+    .package-pricing-box{
+        height: 891px !important;
+    }
+    .package-pricing-box > .pricing-title{
+        height:133px!important;
+    }
+    .package-pricing-box > .package_tekst{
+        height:456px!important;
+    }
+}
+@media (min-width: 992px){
+    .package-pricing-box{
+        height: 818px !important;
+    }
+    .package-pricing-box > .pricing-title{
+        height:112px!important;
+    }
+    .package-pricing-box > .package_tekst{
+        height:372px!important;
+    }
+}
+@media (min-width: 1200px){
+    .package-pricing-box{
+        height: 796px !important;
+    }
+    .package-pricing-box > .pricing-title{
+        height:82px!important;
+    }
+    .package-pricing-box > .package_tekst{
+        height:330px!important;
+    }
+}
+@media (max-width: 1197px){
+    .double_menu_link{
+        padding-top: 22px !important;
+    }
+    
+    .double_menu_div{
+        line-height: 14px;
+    }   
+}
+@media (max-width: 1200px){
+    .everyonecounts_h1{
+        font-size: 81px!important;
+    }
+
+    .everyonecounts_h2{
+        line-height: 0 !important;
+        font-size: 52px !important;
+    }
+}
+
 @media (max-width: 991px){
     #primary-menu {
         padding-top: 30px !important;
@@ -381,6 +465,17 @@ body{
         left:auto !important;
         right: 0px !important;
     }
+    
+    .everyonecounts_h1 {
+        font-size: 81px!important;
+    }
+    
+    .everyonecounts_h2 {
+        line-height: 1 !important;
+        font-size: 51px !important;
+    }
+    
+    
     .video-frame{
         display: none;
     }
@@ -393,10 +488,13 @@ body{
     #page-title {
 	   background-image: url("images/euco_banner_tablet.png");
 	    height:350px;
+        background-position-y: center;
+        background-position-x: center;
     }
     #slider{
         visibility: hidden;
     }
+
 
     /* PACKAGES PAGINA */
 
@@ -411,9 +509,23 @@ body{
     }
 
     /* PACKAGES PAGINA */
+    
+    .double_menu_div{
+        line-height: inherit;
+    }
 
 
+}
 
+@media (max-width: 767px){
+    .everyonecounts_h2 {
+        line-height: 1 !important;
+        font-size: 23px !important;
+    }
+    .everyonecounts_h1 {
+        font-size: 40px!important;
+        line-height: 0px !important;
+    }
 }
 
 /* MEDIA QUERIES */
@@ -439,7 +551,9 @@ body{
 
     #page-title {
 	   background-image: url("images/euco_banner_mobiel.png");
-	   height:200px ;
+	   height:200px;
+        background-position-y: center;
+        background-position-x: center;
     }
 }
 
