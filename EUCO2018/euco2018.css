@@ -404,35 +404,35 @@ body{
 /* MEDIA QUERIES */
 @media (min-width: 768px){
     .package-pricing-box{
-        height: 891px !important;
+        height: 1269px !important;
     }
     .package-pricing-box > .pricing-title{
         height:133px!important;
     }
     .package-pricing-box > .package_tekst{
-        height:456px!important;
+        height:834px!important;
     }
 }
 @media (min-width: 992px){
     .package-pricing-box{
-        height: 818px !important;
+        height: 1091px !important;
     }
     .package-pricing-box > .pricing-title{
         height:112px!important;
     }
     .package-pricing-box > .package_tekst{
-        height:372px!important;
+        height:645px!important;
     }
 }
 @media (min-width: 1200px){
     .package-pricing-box{
-        height: 796px !important;
+        height: 1027px !important;
     }
     .package-pricing-box > .pricing-title{
         height:82px!important;
     }
     .package-pricing-box > .package_tekst{
-        height:330px!important;
+        height:561px!important;
     }
 }
 @media (max-width: 1197px){
