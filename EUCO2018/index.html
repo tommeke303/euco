@@ -219,21 +219,21 @@
                     </div>
                     
                     <div class="row sociale_media_content sociale_media_content_1">
-                        <!-- Place <div> tag where you want the feed to appear -->
-                        <div id="curator-feed-default"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag"></a></div>
-
-                        <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
-                        <script type="text/javascript">
-                        // curator-feed-default
-                        (function(){
-                            var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
-                            i.src = "https://cdn.curator.io/published/1b09d9fb-63f3-4655-b3e8-28301a12.js";
-                            e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
-                        })();
-                        </script>
-
+                        <div class="col-md-6">
+                            <div id="fb-root"></div>
+                            <script>(function(d, s, id) {
+                              var js, fjs = d.getElementsByTagName(s)[0];
+                              if (d.getElementById(id)) return;
+                              js = d.createElement(s); js.id = id;
+                              js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=1848882211805597';
+                              fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));</script>
+                            <div class="fb-page" data-href="https://www.facebook.com/EUCOAntwerp2018/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/EUCOAntwerp2018/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/EUCOAntwerp2018/">EUCO Antwerp 2018</a></blockquote></div>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="twitter-timeline" href="https://twitter.com/hashtag/Euco2018" data-widget-id="930176330058076160">Tweets over #Euco2018</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        </div>
                     </div>
-
                 </div>
             </div>
         </div>
