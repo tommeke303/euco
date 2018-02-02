@@ -436,17 +436,6 @@ body{
         height:561px!important;
     }
 }
-
-@media (max-width: 1318px) and (max-height: 820px){
-    .double_menu_link{
-        padding-top: 22px !important;
-    }
-    
-    .double_menu_div{
-        line-height: 14px;
-    }   
-}
-
 @media (max-width: 1197px){
     .double_menu_link{
         padding-top: 22px !important;
