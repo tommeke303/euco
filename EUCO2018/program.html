@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="euco2018.css" type="text/css" />
     <link rel="stylesheet" href="schedule-template/css/style.css" />
 
-    <script src="schedule-template/js/main.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!--[if lt IE 9]>
@@ -35,6 +34,9 @@
 
     <script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
+    
+    <script src="js/modernizr.js"></script>
+    <script src="schedule-template/js/main.js"></script> <!-- Resource jQuery -->
 
     <!-- Document Title
     ============================================= -->
@@ -110,7 +112,6 @@
         </div>
 
         <div class="row">
-          <div class="row">
             <div class="content-wrap">
 
                 <div class="container clearfix">
@@ -122,29 +123,11 @@
               <div class="cd-schedule">
                   <div class="timeline">
                       <ul>
-                        <li><span>09:00</span></li>
-                        <li><span>09:30</span></li>
-                        <li><span>10:00</span></li>
-                        <li><span>10:30</span></li>
-                        <li><span>11:00</span></li>
-                        <li><span>11:30</span></li>
-                        <li><span>12:00</span></li>
-                        <li><span>12:30</span></li>
-                        <li><span>13:00</span></li>
-                        <li><span>13:30</span></li>
-                        <li><span>14:00</span></li>
-                        <li><span>14:30</span></li>
-                        <li><span>15:00</span></li>
-                        <li><span>15:30</span></li>
-                        <li><span>16:00</span></li>
-                        <li><span>16:30</span></li>
-                        <li><span>17:00</span></li>
-                        <li><span>17:30</span></li>
-                        <li><span>18:00</span></li>
-                        <li><span>18:30</span></li>
-                        <li><span>19:00</span></li>
-                        <li><span>19:30</span></li>
-                        <li><span>20:00</span></li>
+                        <li><span>Morning</span></li>
+                        <li><span>Noon</span></li>
+                        <li><span>Afternoon</span></li>
+                        <li><span>Evening</span></li>
+                        <li><span>Night</span></li>
                       </ul>
                   </div>
 
@@ -154,7 +137,7 @@
                               <div class="top-info"><span>Wednesday</span></div>
 
                               <ul>
-                                <li class="single-event" data-start="9:00" data-end="20:00" data-content="event-beer" data-event="event-1">
+                                <li class="single-event" data-start="Morning" data-end="Evening" data-content="event-beer" data-event="event-2">
                                     <a href="#1">
                                         <em class="event-name">Arrival</em>
                                     </a>
@@ -165,15 +148,14 @@
                           <li class="events-group">
                               <div class="top-info"><span>Thursday</span></div>
                               <ul>
-                                  <li class="single-event" data-start="9:00" data-end="12:00" data-content="event-beer" data-event="event-1">
+                                  <li class="single-event" data-start="Morning" data-end="Noon" data-content="event-beer" data-event="event-4">
                                       <a href="#1">
-                                        <em class="event-name">B.E.E.R.</em>
+                                        <em class="event-name">D.I.A.M.O.N.D.<br>C.H.O.C.O.<br>B.E.E.R.<br>P.R.E.S.S.</em>
                                       </a>
                                   </li>
-                                  <li class="single-event" data-start="14:00" data-end="16:00" data-content="event-beer" data-event="event-2">
-                                      <a href="#0">
-
-                                          <em class="event-name">B.E.E.R.</em>
+                                  <li class="single-event" data-start="Noon" data-end="Afternoon" data-content="event-beer" data-event="event-3">
+                                      <a href="#1">
+                                        <em class="event-name">C.H.O.C.O.<br>B.E.E.R.</em>
                                       </a>
                                   </li>
                               </ul>
@@ -183,10 +165,9 @@
                               <div class="top-info"><span>Friday</span></div>
 
                               <ul>
-                                  <li class="single-event" data-start="10:00" data-end="12:00" data-content="event-diamond" data-event="event-1">
-                                      <a href="#0">
-
-                                          <em class="event-name">D.I.A.M.O.N.D.</em>
+                                  <li class="single-event" data-start="Morning" data-end="Noon" data-content="event-beer" data-event="event-1">
+                                      <a href="#1">
+                                        <em class="event-name">D.I.A.M.O.N.D.<br>P.R.E.S.S.</em>
                                       </a>
                                   </li>
                               </ul>
@@ -194,12 +175,15 @@
 
                           <li class="events-group">
                               <div class="top-info"><span>Saturday</span></div>
-
                               <ul>
-                                  <li class="single-event" data-start="14:00" data-end="16:00" data-content="event-diamond" data-event="event-2">
-                                      <a href="#0">
-
-                                          <em class="event-name">B.E.E.R.</em>
+                                  <li class="single-event" data-start="Morning" data-end="Noon" data-content="event-beer" data-event="event-2">
+                                      <a href="#1">
+                                        <em class="event-name">C.H.O.C.O.<br>B.E.E.R.</em>
+                                      </a>
+                                  </li>
+                                  <li class="single-event" data-start="Noon" data-end="Afternoon" data-content="event-beer" data-event="event-3">
+                                      <a href="#1">
+                                        <em class="event-name">C.H.O.C.O.<br>B.E.E.R.</em>
                                       </a>
                                   </li>
                               </ul>
@@ -252,18 +236,20 @@
                               <img class="img-partners_4" src="images/activities/diamond.jpg" alt="BMW">
                           </div>
                           <div class="center">
-                            <h4>D.I.A.M.O.N.D.<br>(DISCOVER, ILLUMINATE, ASTONISCH, MARVEL, OVERWHELM, NURTURE, DAZZLE)</h4>
-                            <p align="left"><b>Activity:</b><br>
-                              If you say diamonds, we say Antwerp! Our city is the world number one in the diamond trade ever since 1447! Today, 84% of all diamonds travels through Antwerp at least once. Have you always wondered how they make diamonds shine? Thanks to the Antwerp World Diamond Centre, you get the chance to experience an exclusive tour behind the Antwerp’s diamond scene! You will visit the diamond fair, a diamond cutter and the diamond laboratory. Only 40 spots for this once-in-a-lifetime opportunity available: first come, first serve! It is so exclusive that we even have to ask for your passport details.
-                            <p align="left"><b>Price?</b><br>
-                            70 EUR
-                            <p align="left"><b>When?</b><br>
-                            Thursday 5th of April: morning 10 o’clock
-                            <br>Friday 6th of April: morning 10 o’clock
-                            <p align="left"><b>Who?</b><br>
-                            Only 20 lucky Rotaracters / tour
-                            <p align="left"><b>How long?</b><br>
-                            2 hours</p>
+                            <div class="dayactivities_tekstblok">
+                              <h4>D.I.A.M.O.N.D.<br>(DISCOVER, ILLUMINATE, ASTONISCH, MARVEL, OVERWHELM, NURTURE, DAZZLE)</h4>
+                                <p align="left"><b>Activity:</b><br>
+                                  If you say diamonds, we say Antwerp! Our city is the world number one in the diamond trade ever since 1447! Today, 84% of all diamonds travels through Antwerp at least once. Have you always wondered how they make diamonds shine? Thanks to the Antwerp World Diamond Centre, you get the chance to experience an exclusive tour behind the Antwerp’s diamond scene! You will visit the diamond fair, a diamond cutter and the diamond laboratory. Only 40 spots for this once-in-a-lifetime opportunity available: first come, first serve! It is so exclusive that we even have to ask for your passport details.
+                                <p align="left"><b>Price?</b><br>
+                                70 EUR
+                                <p align="left"><b>When?</b><br>
+                                Thursday 5th of April: morning 10 o’clock
+                                <br>Friday 6th of April: morning 10 o’clock
+                                <p align="left"><b>Who?</b><br>
+                                Only 20 lucky Rotaracters / tour
+                                <p align="left"><b>How long?</b><br>
+                                2 hours</p>
+                            </div>
                             <a href="#" class="button button-3d button-large button-rounded" role="button">Subscribe here</a>
                           </div>
                         </div>
@@ -274,21 +260,23 @@
                               <img class="img-partners_4" src="images/activities/chocolate.gif" alt="BMW">
                           </div>
                           <div class="center">
-                            <h4>C.H.O.C.O.<br>(CREATE, HARVEST, OBSERVE, CONSUME, OBTAIN)</h4>
-                            <p align="left"><b>Activity:</b><br>
-                              Did you know that Belgian chocolate has more cacao than the European average chocolate?! And… that our chocolate industry is since 1910 one of the best in the world thanks to brilliant production standards?!
-                              Smell, taste and have fun with chocolate together with 19 other Rotaracters! Create your own chocolate ‘pralines’ and chocolate attributes and decorations during a 3-hour workshop! Yes, of course you can take your masterpiece with you!
+                            <div class="dayactivities_tekstblok">
+                                <h4>C.H.O.C.O.<br>(CREATE, HARVEST, OBSERVE, CONSUME, OBTAIN)</h4>
+                                <p align="left"><b>Activity:</b><br>
+                                  Did you know that Belgian chocolate has more cacao than the European average chocolate?! And… that our chocolate industry is since 1910 one of the best in the world thanks to brilliant production standards?!
+                                  Smell, taste and have fun with chocolate together with 19 other Rotaracters! Create your own chocolate ‘pralines’ and chocolate attributes and decorations during a 3-hour workshop! Yes, of course you can take your masterpiece with you!
 
-                            <p align="left"><b>Price?</b><br>
-                            45 EUR (workshop + chocolate)
-                            <p align="left"><b>When?</b><br>
-                              Thursday 5th of April: noon or afternoon
-                            <br>Saturday 7th of April: morning or noon
-                            <p align="left"><b>Who?</b><br>
-                            Maximum 20 people/workshop<br>First come, first served!
+                                <p align="left"><b>Price?</b><br>
+                                45 EUR (workshop + chocolate)
+                                <p align="left"><b>When?</b><br>
+                                  Thursday 5th of April: noon or afternoon
+                                <br>Saturday 7th of April: morning or noon
+                                <p align="left"><b>Who?</b><br>
+                                Maximum 20 people/workshop<br>First come, first served!
 
-                            <p align="left"><b>How long?</b><br>
-                            3 hours</p>
+                                <p align="left"><b>How long?</b><br>
+                                3 hours</p>
+                            </div>
                             <a href="#" class="button button-3d button-large button-rounded" role="button">Subscribe here</a>
                           </div>
                         </div>
@@ -299,18 +287,20 @@
                               <img class="img-partners_4" src="images/activities/beer.jpg" alt="BMW">
                           </div>
                           <div class="center">
-                            <h4>B.E.E.R.<br>(BREW, EJOY, EMPTY, REPEAT)</h4>
-                            <p align="left"><b>Activity:</b><br>
-                            We are so lucky to live in a country with so many types of beer! We can even make beer out of piss of festivalpeople -> true story! Antwerp has many breweries and the most typical one is brewery De Koninck. You will experience and taste real Belgian beer.
-                            <p align="left"><b>Price?</b><br>
-                            25 EUR
-                            <p align="left"><b>When?</b><br>
-                              Thursday 5th of April: noon or afternoon
-                            <br>Saturday 7th of April: morning or noon
-                            <p align="left"><b>Who?</b><br>
-                            Maximum 15 people<br>First come, first served!
-                            <p align="left"><b>How long?</b><br>
-                            2 hours</p>
+                            <div class="dayactivities_tekstblok">
+                                <h4>B.E.E.R.<br>(BREW, EJOY, EMPTY, REPEAT)</h4>
+                                <p align="left"><b>Activity:</b><br>
+                                We are so lucky to live in a country with so many types of beer! We can even make beer out of piss of festivalpeople -> true story! Antwerp has many breweries and the most typical one is brewery De Koninck. You will experience and taste real Belgian beer.
+                                <p align="left"><b>Price?</b><br>
+                                25 EUR
+                                <p align="left"><b>When?</b><br>
+                                  Thursday 5th of April: noon or afternoon
+                                <br>Saturday 7th of April: morning or noon
+                                <p align="left"><b>Who?</b><br>
+                                Maximum 15 people<br>First come, first served!
+                                <p align="left"><b>How long?</b><br>
+                                2 hours</p>
+                            </div>
                             <a href="#" class="button button-3d button-large button-rounded" role="button">Subscribe here</a>
                           </div>
                         </div>
@@ -321,18 +311,20 @@
                               <img class="img-partners_4" src="images/activities/press.jpg" alt="BMW">
                           </div>
                           <div class="center">
-                            <h4>P.R.E.S.S.<br>(PRINT, REBUILD, ENGRAVE, SKETCH, SCRIBBLE)</h4>
-                            <p align="left"><b>Activity:</b><br>
-                              Do you think printing is boring? We will proof you wrong! This activity combines a visit to the famous Plantin Moretus museum, a Unesco World Heritage Site, and your own printing workshop! We go back to the 16th century basics: arranging letters in mirror image in a composing stick, printing on a genuine press, find out how to make an ‘etching’, work with a zinc plate and ‘bookbind’ your own little notebook, diary or photo album.
-                            <p align="left"><b>Price?</b><br>
-                              19 EUR (visit museum + workshop)
-                            <p align="left"><b>When?</b><br>
-                              Thursday 5th of April: morning
-                              <br>Friday 6th of April: morning
-                            <p align="left"><b>Who?</b><br>
-                            Maximum 12 people/workshop
-                            <p align="left"><b>How long?</b><br>
-                            2 hours</p>
+                            <div class="dayactivities_tekstblok">
+                                <h4>P.R.E.S.S.<br>(PRINT, REBUILD, ENGRAVE, SKETCH, SCRIBBLE)</h4>
+                                <p align="left"><b>Activity:</b><br>
+                                  Do you think printing is boring? We will proof you wrong! This activity combines a visit to the famous Plantin Moretus museum, a Unesco World Heritage Site, and your own printing workshop! We go back to the 16th century basics: arranging letters in mirror image in a composing stick, printing on a genuine press, find out how to make an ‘etching’, work with a zinc plate and ‘bookbind’ your own little notebook, diary or photo album.
+                                <p align="left"><b>Price?</b><br>
+                                  19 EUR (visit museum + workshop)
+                                <p align="left"><b>When?</b><br>
+                                  Thursday 5th of April: morning
+                                  <br>Friday 6th of April: morning
+                                <p align="left"><b>Who?</b><br>
+                                Maximum 12 people/workshop
+                                <p align="left"><b>How long?</b><br>
+                                2 hours</p>
+                            </div>
                             <a href="#" class="button button-3d button-large button-rounded" role="button">Subscribe here</a>
                           </div>
                         </div>
@@ -426,7 +418,7 @@
                                   <img class="image_fade img-partners_4" src="images/Gala01.png" alt="BMW">
                               </div>
                           </div>
-                      </div>
+                      </div> 
 
                       <div class="col_one_fourth nobottommargin">
                           <div class="feature-box media-box">
@@ -500,12 +492,15 @@
 
             </div>
         </div>
-
+    
     </footer>
+
+    
 
     <script type="text/javascript" src="js/functions.js"></script>
 
     <script src="js/main.js"></script>
-
+            
+    
 </body>
 </html>

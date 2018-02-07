@@ -343,7 +343,13 @@ body{
 
 /* SOCIALE MEDIA */
 
+/* PROGRAM */
 
+.dayactivities_tekstblok{
+    height: 989px !important;
+}
+
+/* PROGRAM */
 
 /* MEDIA QUERIES */
 @media (min-width: 992px){
@@ -454,6 +460,9 @@ body{
         line-height: 0 !important;
         font-size: 52px !important;
     }
+    .dayactivities_tekstblok{
+        height: 1148px !important;
+    }
 }
 
 @media (max-width: 991px){
@@ -514,6 +523,10 @@ body{
     .double_menu_div{
         line-height: inherit;
     }
+    
+    .dayactivities_tekstblok{
+        height: auto !important;
+    }
 
 
 }
@@ -527,6 +540,7 @@ body{
         font-size: 40px!important;
         line-height: 0px !important;
     }
+
 }
 
 /* MEDIA QUERIES */
