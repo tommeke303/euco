@@ -1,5 +1,4 @@
 table {
-  font-family: sans-serif;
   width: 100%;
   border-spacing: 0;
   border-collapse: separate;
@@ -7,8 +6,8 @@ table {
   margin-bottom: 50px;
 }
 table thead tr th {
-  background: #626E7E;
-  color: #d1d5db;
+  background: #9fb7ae;
+  color: #12100b;
   padding: 0.5em;
   overflow: hidden;
 }
@@ -29,8 +28,8 @@ table thead tr th .day {
   line-height: 1.8;
 }
 table thead tr th .day.active {
-  background: #d1d5db;
-  color: #626E7E;
+  background: #e8e8e0;
+  color: #12100b;
 }
 table thead tr th .short {
   display: block;
