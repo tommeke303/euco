@@ -422,6 +422,9 @@ body{
     .schedule{
         visibility: visible;
     }
+    .schedule_note{
+        visibility: hidden !important;
+    }
 }
 @media (min-width: 992px){
     .package-pricing-box{
@@ -547,6 +550,15 @@ body{
         visibility: hidden;
         height: 0px !important;
     }
+    .schedule_note{
+        visibility: visible !important;
+        
+    }
+    .schedule_note_p{
+        text-align: center;
+        font-size: 1.3em !important;
+        font-weight:bolder !important;
+    }
 }
 
 /* MEDIA QUERIES */
@@ -554,6 +566,7 @@ body{
     .social_media_div_2{
         display: none;
     }
+    
 }
 
 /* MEDIA QUERIES */
