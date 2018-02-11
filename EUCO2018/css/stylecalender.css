@@ -91,9 +91,24 @@ table tbody tr td.hour span {
 }
 
 .hour{
-    font-size: 1em !important;
+    font-size: 100% !important;
     font-weight: bold !important;
-    vertical-align: middle !important;
+}
+
+table tbody tr td.hour span {
+    display: inline !important;
+}
+
+.short {
+    text-align: center !important;
+    width: 100% !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    font-size: 90% !important;
+    font-weight: bold !important;
+    padding-bottom: 10px !important;
 }
 
 @media (max-width: 60em) {

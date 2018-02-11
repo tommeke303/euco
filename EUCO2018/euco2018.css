@@ -419,6 +419,9 @@ body{
     .package-pricing-box > .package_tekst{
         height:834px!important;
     }
+    .schedule{
+        visibility: visible;
+    }
 }
 @media (min-width: 992px){
     .package-pricing-box{
@@ -540,7 +543,10 @@ body{
         font-size: 40px!important;
         line-height: 0px !important;
     }
-
+    .schedule{
+        visibility: hidden;
+        height: 0px !important;
+    }
 }
 
 /* MEDIA QUERIES */
