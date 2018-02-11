@@ -89,6 +89,13 @@ table tbody tr td.hour {
 table tbody tr td.hour span {
   display: block;
 }
+
+.hour{
+    font-size: 1em !important;
+    font-weight: bold !important;
+    vertical-align: middle !important;
+}
+
 @media (max-width: 60em) {
   table thead tr th .long {
     display: block;
