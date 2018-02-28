@@ -11614,7 +11614,7 @@ body:not(.device-touch) .tagcloud a {
 	Bootstrap Specific
 -----------------------------------------------------------------*/
 
-.table .success { color: #3c763d; }
+.table .success { color: white; }
 
 .table .info { color: #31708f; }
 

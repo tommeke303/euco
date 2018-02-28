@@ -343,7 +343,22 @@ body{
 
 /* SOCIALE MEDIA */
 
+/* PROGRAM */
 
+.dayactivities_tekstblok{
+    height: 900px !important;
+}
+
+.image-evening-activity{
+    margin-top: 0px !important;
+}
+
+.inline-row{
+    padding-left: 0px !important; 
+    padding-right: 0px !important;
+}
+
+/* PROGRAM */
 
 /* MEDIA QUERIES */
 @media (min-width: 992px){
@@ -413,6 +428,12 @@ body{
     .package-pricing-box > .package_tekst{
         height:834px!important;
     }
+    .schedule{
+        visibility: visible;
+    }
+    .schedule_note{
+        visibility: hidden !important;
+    }
 }
 @media (min-width: 992px){
     .package-pricing-box{
@@ -453,6 +474,9 @@ body{
     .everyonecounts_h2{
         line-height: 0 !important;
         font-size: 52px !important;
+    }
+    .dayactivities_tekstblok{
+        height: 1040px !important;
     }
 }
 
@@ -514,6 +538,10 @@ body{
     .double_menu_div{
         line-height: inherit;
     }
+    
+    .dayactivities_tekstblok{
+        height: auto !important;
+    }
 
 
 }
@@ -527,6 +555,19 @@ body{
         font-size: 40px!important;
         line-height: 0px !important;
     }
+    .schedule{
+        visibility: hidden;
+        height: 0px !important;
+    }
+    .schedule_note{
+        visibility: visible !important;
+        
+    }
+    .schedule_note_p{
+        text-align: center;
+        font-size: 1.3em !important;
+        font-weight:bolder !important;
+    }
 }
 
 /* MEDIA QUERIES */
@@ -534,6 +575,7 @@ body{
     .social_media_div_2{
         display: none;
     }
+    
 }
 
 /* MEDIA QUERIES */

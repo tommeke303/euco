@@ -1,269 +1,590 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
-<head>
 
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
+    <head>
 
-    <!-- Stylesheets
-    ============================================= -->
-	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/horizontal-timeline.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="author" content="SemiColonWeb" />
 
-    <link rel="stylesheet" href="css/dark.css" type="text/css" />
-    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-    <link rel="stylesheet" href="css/animate.css" type="text/css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+        <!-- Stylesheets
+============================================= -->
+        <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
-    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
-    <link rel="stylesheet" href="euco2018.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <!--[if lt IE 9]>
-    	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-    <![endif]-->
 
-    <!-- External JavaScripts
-    ============================================= -->
+        <!-- CSS reset -->
+        <link rel="stylesheet" href="css/horizontal-timeline.css" />
+        <!-- Resource style -->
+        <script src="js/modernizr.js"></script>
+        <!-- Modernizr -->
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
 
-    <script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/plugins.js"></script>
+        <link rel="stylesheet" href="css/dark.css" type="text/css" />
+        <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+        <link rel="stylesheet" href="css/animate.css" type="text/css" />
+        <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
-    <!-- Document Title
-    ============================================= -->
-	<title>Program | EUCO2018</title>
+        <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+        <link rel="stylesheet" href="euco2018.css" type="text/css" />
+        <link rel="stylesheet" href="schedule-template/css/style.css" />
 
-</head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+        <!-- External JavaScripts
+============================================= -->
+
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>
+
+        <script src="js/modernizr.js"></script>
+        <script src="schedule-template/js/main.js"></script> <!-- Resource jQuery -->
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>
+
+        <script src="js/modernizr.js"></script>
+        <script src="schedule-template/js/main.js"></script>
+
+
+        <!-- Document Title
+============================================= -->
+        <title>Program | EUCO2018</title>
+
+    </head>
+
 <body class="stretched">
     <div class="menu-container container-fluid">
-        <div class="row" style="margin-left: 0px !important; margin-right: 0px !important; max-width: 100vw;">
-            <section id="page-title">
-                <div class="container clearfix">
-                </div>
-            </section>
-        </div>
+            <div class="row" style="margin-left: 0px !important; margin-right: 0px !important; max-width: 100vw;">
+                <section id="page-title">
+                    <div class="container clearfix">
+                    </div>
+                </section>
+            </div>
 
-        <div class="row">
-            <header id="header" class="full-header">
-                <div id="header-wrap">
-                    <div class="container-menu container clearfix">
+            <div class="row">
+                <header id="header" class="full-header">
+                    <div id="header-wrap">
+                        <div class="container-menu container clearfix">
 
 
-                        <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-                        <nav id="primary-menu" class="style-2 sub-title">
+                            <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+                            <nav id="primary-menu" class="style-2 sub-title">
+                              <ul>
+                                  <li>
+                                      <a class="submenu-link" href="index.html">
+                                          <div>Home</div>
+                                          <span>Let's Start</span>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a class="submenu-link" href="about.html">
+                                          <div>About</div>
+                                          <span>Be informed</span>
+                                      </a>
+                                      <ul>
+                                        <li><a href="about.html#history"><div>History</div></a></li>
+                                        <li><a href="about.html#candidacy"><div>Our candidacy</div></a></li>
+                                        <li><a href="about.html#hoc"><div>The HOC Team</div></a></li>
+                                        <li><a href="about.html#transport"><div>Transport</div></a></li>
+                                        <li><a href="about.html#hotels"><div>Hotels</div></a></li>
+                                      </ul>
+                                  </li>
+                                  <li><a class="submenu-link" href="packages.html"><div>Packages</div><span>Our options</span></a>
+                                    <ul>
+                                        <li><a href="packages.html#EUCO"><div>EUCO</div></a></li>
+                                        <li><a href="packages.html#pre"><div>Pre EUCO</div></a></li>
+                                        <li><a href="packages.html#post"><div>Post EUCO</div></a></li>
+                                    </ul>
+                                  </li>
+                                  <li><a class="submenu-link" href="program.html"><div>Program</div><span>What to do?</span></a>
+                                      <ul>
+                                          <li><a href="program.html#day-activities"><div>Day activities</div></a></li>
+                                          <li><a href="program.html#evening-activities"><div>Evening activities</div></a></li>
+                                          <li><a href="program.html#gala-evening"><div>Gala evening</div></a></li>
+                                          <li><a href="program.html#conference"><div>Conference</div></a></li>
+                                      </ul>
+                                  </li>
+                                  <li><a class="submenu-link double_menu_link" href="diamond.html"><div class="double_menu_div">A Diamond Page</div><span>Diamonds are your best friend</span></a>
+                                    <ul>
+                                        <li><a href="diamond.html#awdc"><div>Antwerp World Diamond</div></a></li>
+                                        <li><a href="diamond.html#dpa"><div>Diamond Producers</div></a></li>
+                                        <li><a href="diamond.html#competition"><div>Photo Competition</div></a></li>
+                                    </ul>
+                                  </li>
+                                  <li><a class="submenu-link double_menu_link" href="everyonecounts.html"><div class="double_menu_div">Every one counts</div><span>We stand together</span></a></li>
+
+                                  <li><a class="submenu-link" href="partners.html"><div>Partners</div><span>Thank you!</span></a></li>
+
+                                  <li class="current submenu-link register-now-li"><a class="register-now-a" href="	https://frontoffice.paylogic.nl/?event_id=119291&point_of_sale_id=16069" target="_blank"><div>Register now!</div><span>Starting from 28/11</span></a></li>
+                              </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <div class="row">
+                <div class="content-wrap">
+                    <div class="container clearfix">
+                        <h1>
+                            <a id="day-activities"></a>Schedule
+                        </h1>
+                        <div class="table-responsive">
+                            <table class="table table-bordered nobottommargin">
+                                <thead>
+                                    <tr class="active">
+                                        <th></th>
+                                        <th>WEDNESDAY 4/04 </th>
+                                        <th>THURSDAY 5/04</th>
+                                        <th>FRIDAY 6/04</th>
+                                        <th>SATURDAY 7/04</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr  class="success">
+                                        <td>MORNING</td>
+                                        <td></td>
+                                        <td>10h00 - 13h00: CHOCO WORKSHOP<br>
+                                            10h00 - 12h00: A DIAMOND TOUR<br>
+                                            10h00 - 12h00: PRESS &amp; PRINT - bookbinding
+                                        </td>
+                                        <td>09h00 - 13h30: ERIC MEETING (only board)<br>
+                                            10h30 - 12h30: DANCE &amp; DANCE<br>
+                                            10h00 - 12h00: A DIAMOND TOUR<br>
+                                            10h00 - 12h00: PRESS &amp; PRINT - etching<br>
+                                            10h00 - 12h00: PRESS &amp; PRINT - cast, typeset and print
+                                        </td>
+                                        <td>10h00 - 13h00: CHOCO WORKSHOP
+                                        </td>
+                                    </tr>
+                                    <tr class="active">
+                                        <td>AFTERNOON</td>
+                                        <td></td>
+                                        <td>13h00 - 17h00: A DIAMOND DAY<br>
+                                            13h00 - 14h00: BEER<br>
+                                            14h00 - 16h00: STREET ART <br>
+                                            14h00 - 17h00: CHOCO WORKSHOP<br>
+                                            15h00 - 16h00: BEER
+                                        </td>
+                                        <td>13h00 - 16h30: TEDx inspired conference<br>
+                                            16h30 - 18h00: COUNTRY BOOTH</td>
+                                        <td>13h00 - 14h00: BEER<br>
+                                            14h00 - 16h30: CHOCO WORKSHOP<br>
+                                            15h00 - 16h00: BEER
+                                        </td>
+                                    </tr>
+                                    <tr class="success">
+                                        <td>EVENING</td>
+                                        <td>21h00: FLUO-ELROW-BASH</td>
+                                        <td>16h00 - 18h00: RECEPTION<br>
+                                            18h00: FOODTRUCK FESTIVAL</td>
+                                        <td>21h00: SAILORS AND MERMAIDS PARTY</td>
+                                        <td>18h30: A DIAMOND BALL</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div><!-- /.table-responsive -->
+                        <div class="row schedule_note">
+                            <p class="schedule_note_p">Scroll to the left to see everything</p>
+                        </div>
+
+                        <div class="row schedule">
+                            <div class="divider divider-center">
+                                <i class="icon-circle"></i>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h1><a id="day-activities"></a>Day activities</h1>
+                        </div>
+                        <div class="row">
+
+                            <p>
+                                Are you ready to experience the real Belgium? Are you ready to be indulged?<br> We present you day activities that are:
                             <ul>
-                                <li>
-                                    <a class="submenu-link" href="index.html">
-                                        <div>Home</div>
-                                        <span>Let's Start</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="submenu-link" href="about.html">
-                                        <div>About</div>
-                                        <span>Be informed</span>
-                                    </a>
-                                    <ul>
-                                      <li><a href="about.html#history"><div>History</div></a></li>
-                                      <li><a href="about.html#candidacy"><div>Our candidacy</div></a></li>
-                                      <li><a href="about.html#hoc"><div>The HOC Team</div></a></li>
-                                      <li><a href="about.html#transport"><div>Transport</div></a></li>
-                                      <li><a href="about.html#hotels"><div>Hotels</div></a></li>
-                                    </ul>
-                                </li>
-                                <li><a class="submenu-link" href="packages.html"><div>Packages</div><span>Our options</span></a>
-                                </li>
-                                <li><a class="submenu-link" href="program.html"><div>Program</div><span>What to do?</span></a>
-                                    <ul>
-                                        <li><a href="program.html#day-activities"><div>Day activities</div></a></li>
-                                        <li><a href="program.html#evening-activities"><div>Evening activities</div></a></li>
-                                        <li><a href="program.html#gala-evening"><div>Gala evening</div></a></li>
-                                        <li><a href="program.html#conference"><div>Conference</div></a></li>
-                                    </ul>
-                                </li>
-                                <li><a class="submenu-link double_menu_link" href="pre-post.html"><div class="double_menu_div">Pre &amp; Post EUCO</div><span>if you can't get enough</span></a>
-                                    <ul>
-                                        <li><a href="pre-post.html#pre"><div>Pre EUCO</div></a></li>
-                                        <li><a href="pre-post.html#post"><div>Post EUCO</div></a></li>
-                                    </ul>
-                                </li>
-                                <li><a class="submenu-link double_menu_link" href="everyonecounts.html"><div class="double_menu_div">Every one counts</div><span>We stand together</span></a></li>
-
-                                <li><a class="submenu-link" href="partners.html"><div>Partners</div><span>Thank you!</span></a></li>
-
-                                <li class="current submenu-link register-now-li"><a class="register-now-a" href="register.html"><div>Register now!</div><span>Opening soon!</span></a></li>
+                                <li><b>Unique</b>: Experience activities exclusively created for the EUCO!</li>
+                                <li><b>Intimate</b>: Small groups ensure close participation and the ideal opportunity to meet new people!</li>
+                                <li><b>Authentic</b>: Think Belgian! Chocolate, Beer, Diamonds, Printing art design, Fashion, …!</li>
                             </ul>
-                        </nav>
+                            </p>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="thumbnail">
+                                <div class="fbox-media center">
+                                    <img class="img-partners" src="images/activities/diamond2.png" alt="BMW">
+                                </div>
+                                <div class="center">
+                                    <div class="dayactivities_tekstblok">
+                                        <h4>A DIAMOND TOUR</h4>
+                                        <p><b>Activity:</b><br> If you say diamonds, we say Antwerp! Our city is the world number one in the diamond trade ever since 1447! Today, 84% of all diamonds travels through Antwerp at least once. Have you always wondered how they make diamonds shine? Thanks to the Antwerp World Diamond Centre, you get the chance to experience an exclusive tour behind the Antwerp’s diamond scene! You will visit the diamond fair, a diamond cutter and the diamond laboratory. Only 40 spots for this once-in-a-lifetime opportunity available: first come, first serve! It is so exclusive that we even have to ask for your passport details </p>
+                                        <p><b>Price?</b><br>70 EUR</p>
+                                        <p><b>When?</b><br>
+                                            Thursday 5th &amp; Friday 6th<br>
+                                            at 10h00
+                                        </p>
+                                        <p><b>Who?</b><br>20 lucky People / tour</p>
+                                        <p><b>How long?</b><br> 2 hours</p>
+                                    </div>
+                                    <a href="https://goo.gl/forms/qTNMTBXid2U1pTq62" class="btn btn-danger btn-block btn-lg bgcolor border-color" target="_blank">Subscribe here</a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail">
+                                <div class="fbox-media center">
+                                    <img class="img-partners" src="images/activities/diamond.png" alt="BMW">
+                                </div>
+                                <div class="center">
+                                    <div class="dayactivities_tekstblok">
+                                        <h4>A DIAMOND DAY</h4>
+                                        <p><b>Activity:</b><br> For all the people who would love to discover Antwerp from a diamond’s point of view. The people from the Antwerp World Diamond Centre will take you on a ‘Diamond Expedition’, invite you to the DIVA diamond museum, there will be a diamond afternoon party, DIVA diamond gin and much more! I would say: ‘all the diamonds you could see in one day!’.
+                                        <p ><b>Price?</b><br>FREE</p>
+                                        <p ><b>When?</b><br>
+                                            Thursday 5th<br>at 13h00 - 17h00
+                                        </p>
+                                        <p ><b>Who?</b><br>300 people max.</p>
+                                        <p><b>How long?</b><br> 4 hours</p>
+                                    </div>
+                                    <a href="https://goo.gl/forms/12Hs1Vt3hrT3QvzY2" class="btn btn-danger btn-block btn-lg bgcolor border-color" target="_blank">Subscribe here</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail">
+                                <div class="fbox-media center">
+                                    <img class="img-partners" src="images/activities/choco.png" alt="BMW">
+                                </div>
+                                <div class="center">
+                                    <div class="dayactivities_tekstblok">
+                                        <h4>CHOCO</h4>
+                                        <p><b>Activity:</b><br>
+                                            Did you know that Belgian chocolate has more cacao than the European average chocolate?! And… that our chocolate industry is since 1910 one of the best in the world thanks to brilliant production standards?! Smell,
+                                            taste and have fun with chocolate together with 19 other Rotaracters! Create your own chocolate ‘pralines’ and chocolate attributes and decorations during a 3-hour workshop! Yes, of course you can take your masterpiece with you!
+                                        </p>
+                                        <p><b>Price?</b><br>45 EUR<br>(workshop + chocolate)
+                                        <p><b>When?</b><br>Thursday 5th &amp; Saturday 7th<br>at 10h00 or 14h00
+                                        </p>
+                                        <p><b>Who?</b><br>Maximum 20 people/workshop<br>
+
+                                        <p><b>How long?</b><br>3 hours</p>
+                                    </div>
+                                    <a href="https://goo.gl/forms/Qg38j3ImDNqaL0pL2" class="btn btn-danger btn-block btn-lg bgcolor border-color" target="_blank">Subscribe here</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col_last">
+                            <div class="thumbnail">
+                                <div class="fbox-media center">
+                                    <img class="img-partners" src="images/activities/beer.png" alt="BMW">
+                                </div>
+                                <div class="center">
+                                    <div class="dayactivities_tekstblok">
+                                        <h4>BEER</h4>
+                                        <p ><b>Activity:</b><br> We are so lucky to live in a country with so many types of beer! We can even make beer out of piss of festivalpeople -> true story!
+                                          <br>You will experience and taste real Belgian beer.
+                                        <p ><b>Price?</b><br> to be confirmed
+                                        <p ><b>When?</b><br>Thursday 5th  &amp; Saturday 7th
+                                        <br>at 13h00 or 15h00
+                                        <p ><b>Who?</b><br>Maximum 15 people/beertasting
+                                        <p ><b>How long?</b><br>2 hours</p>
+                                    </div>
+                                    <a href="https://goo.gl/forms/jIAJK3SGMD7DiV4m1" class="btn btn-danger btn-block btn-lg bgcolor border-color" target="_blank">Subscribe here</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail">
+                                <div class="fbox-media center">
+                                    <img class="img-partners" src="images/activities/press.png" alt="BMW">
+                                </div>
+                                <div class="center">
+                                    <div class="dayactivities_tekstblok">
+                                        <h4>PRESS &amp; PRINT</h4>
+                                        <p ><b>Activity:</b><br>
+                                            Do you think printing is boring? We will proof you wrong! This activity combines a visit to the famous Plantin Moretus museum, a Unesco World Heritage Site, and your own printing workshop! We go back to the 16th century basics.
+                                            <br>You can choose between three workshops: <br>"<b>typeset, cast & print</b>" where you make up a complete page by arranging letters in mirror image in a composing stick and print it on a genuine press.<br>You can do "<b>bookbinding</b>" workshop where you bookbind your own little notebook, diary or photo album.
+                                            <br>Or you can choose the "<b>Etching</b>" workshop.
+                                        <p><b>Price?</b><br> 19 EUR<br> (visit museum + workshop)
+                                        <p><b>When?</b><br> Thursday 5th &amp; Friday 6th<br>
+                                          at 10h00
+                                        <p><b>Who?</b><br> Maximum 12 people/workshop
+                                        <p><b>How long?</b><br> 2 hours</p>
+                                    </div>
+                                    <a href="https://goo.gl/forms/tpY3gLYosJDnuPAe2" class="btn btn-danger btn-block btn-lg bgcolor border-color" target="_blank">Subscribe here</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail">
+                                <div class="fbox-media center">
+                                    <img class="img-partners" src="images/activities/dance.png" alt="BMW">
+                                </div>
+                                <div class="center">
+                                    <div class="dayactivities_tekstblok">
+                                        <h4>DANCE &amp; DANCE</h4>
+                                        <p ><b>Activity:</b><br> Creativity, collaboration and daring are our main pillars of this dance workshop. Do you love to dance? And do you want to take part to an exclusive madness with a top famous danser Emmi from the Royal Ballet of Flanders? Join us in our top-secret dance workshop and be surprised to where we will bring you.<br>
+                                            But the most important thing is stay yourself all the time, even during this workshop, because you are who you are meant to be … This is You, This is Me.
+                                        <p ><b>Price?</b><br> FREE
+                                        <p><b>When?</b><br>Friday 6th<br>10h30
+                                        <p ><b>Who?</b><br>No max.
+                                        <p ><b>How long?</b><br>2 hours</p>
+                                    </div>
+                                    <a href="https://goo.gl/forms/PjzNZig4OHtsxqzW2" class="btn btn-danger btn-block btn-lg bgcolor border-color" target="_blank">Subscribe here</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="thumbnail">
+                                <div class="fbox-media center">
+                                    <img class="img-partners" src="images/activities/art.png" alt="BMW">
+                                </div>
+                                <div class="center">
+                                    <div class="dayactivities_tekstblok">
+                                        <h4>STREET ART</h4>
+                                        <p ><b>Activity:</b><br> Two street art works in Antwerp has been selected in the list of ‘Best Street Art 2017’ by I support Street art.com. Art nurtures the mind and creating art is even better! So unleash the rebel or child within you! Enjoy experimenting with graffiti during this 2-hour workshop and leave your colourful stamp on the Antwerp walls! Our expert Tim will guide you through the graffiti art world.
+                                        <p ><b>Price?</b><br> 28 EURO
+                                        <p ><b>When?</b><br>Thursday 5th<br>14h00
+                                        <p ><b>Who?</b><br>Max. 25 peoples
+                                        <p><b>How long?</b><br>2 hours</p>
+                                    </div>
+                                    <a href="https://goo.gl/forms/3bq5r8OB2D2RyQNq1" class="btn btn-danger btn-block btn-lg bgcolor border-color" target="_blank">Subscribe here</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="divider divider-center">
+                            <i class="icon-circle"> </i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h1><a id="evening-activities"></a>Evening activities</h1>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-8">
+                            <h3>WEDNESDAY at 21h00: Fluo-Elrow-Bash</h3>
+
+                            <p class="text-justify">
+                                On Wednesday we will break the house down for the first time. Come and join us on an epic evening and discover the magical world of Elrow. On this evening colour, inflatables, confetti, fluo and a lot of good party beats will take you to a higher place. Tonight, Antwerp will overwhelm you with Elrow magic!
+                            </p>
+
+                            <div class="row">
+                                <div class="col-md-6 inline-row">
+                                    <h4>What to wear?</h4>
+                                    <p class="text-justify">
+                                        Everything is possible during our magical Elrow party. Wear the craziest costumes, wigs, crazy sunglasses, glitter, bring inflatables and finally add a touch of fluo to your outfit. On this evening the sky is the limit!
+                                    </p>
+                                </div>
+                                <div class="col-md-offset-1 col-md-5 inline-row">
+                                    <h4>Location</h4>
+                                    <ul>
+                                        <li>Ikon</li>
+                                        <li>Straatsburgdok Noordkaai 3</li>
+                                        <li>2030 Antwerp</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-min-12 col-md-4">
+                            <img src="images/evening/fluo.png" alt="Event Single"></a>
+                            <br>
+                        </div>
+                    </div>
+
+
+                        <div class="row">
+                            <div class="divider divider-rounded divider-center">
+                                <i class="icon-smile"> </i>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-8">
+                                <h3>THURSDAY at 18h00: Foodtruck Festival</h3>
+
+                                <p class="text-justify">
+                                    On Thursday evening we will entertain you with a Belgian foodtruck festival. We will bring you the typical Belgian cosiness, hospitality and most important best of Belgian food and drinks.
+                                </p>
+                                <p class="text-justify">
+                                    For the ones who can’t get enough after the food truck festival you are welcome to discover Antwerp’s world famous nightlife. There are different vibrant party places to visit in Antwerp city!
+                                </p>
+
+                                <div class="row">
+                                    <div class="col-md-6 inline-row">
+                                        <h4>What to wear?</h4>
+                                        <p>Casual chique</p>
+                                    </div>
+                                    <div class="col-md-6 inline-row">
+                                        <h4>Location</h4>
+                                        <ul>
+                                            <li>Felix Pakhuis</li>
+                                            <li>Godefriduskaai 30</li>
+                                            <li>2000 Antwerp</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-min-12 col-md-4">
+                                <img src="images/evening/foodtruck.png" alt="Event Single"></a>
+                                <br>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="divider divider-rounded divider-center">
+                                <i class="icon-smile"> </i>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-8">
+                                <h3>FRIDAY at 21h00: Sailors and Mermaids</h3>
+
+                                    <p class="text-justify">
+                                        Ahoi fellow Rotaracters! It’s time to raise the sails and come aboard to join us for a nautical themed party full of Belgian beats. On Friday we will take you to the seaside, so get ready to weigh down your anchor and party with your fellow sailors and mermaids.
+                                    </p>
+                                    <p class="text-justify">
+                                        Get your sea legs ready to party all night long!
+                                    </p>
+                            </div>
+                            <div class="col-md-min-12 col-md-4">
+                                <img src="images/evening/mermaids.png" alt="Event Single"></a>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 inline-row">
+                                <h4>What to wear?</h4>
+                                <p class="text-justify">
+                                    Nautical themed party wear.
+                                    Men: dress up like a rough sailor
+                                    Ladies: Awaken the inner Little Mermaid in you, dress to impress those sailors!
+                                </p>
+                            </div>
+                            <div class="col-md-offset-2 col-md-4">
+                                <h4>Location</h4>
+                                <ul>
+                                    <li>De Shop</li>
+                                    <li>Rijnkaai 2</li>
+                                    <li>2000 Antwerp</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="divider divider-rounded divider-center">
+                                <i class="icon-smile"> </i>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h1>
+                                <a id="gala-evening"></a>Gala evening
+                            </h1>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-8">
+                                <h3>SATURDAY at 18h30: A diamond ball</h3>
+
+                                <p class="text-justify">
+                                    During this ‘diamond’ gala we will award the best social projects from 2017. Be ready to have a diamond evening and let the amazing dances, music and decorations surprise you.
+                                </p>
+
+                                <div class="row">
+                                    <div class="col-md-9 inline-row">
+                                        <h4>What to wear?</h4>
+                                        <p>Black tie with a diamond touch<br>
+                                            (Men in smoking – ladies in a long evening dress)
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3 inline-row">
+                                        <h4>Location</h4>
+                                        <ul>
+                                            <li>Parkloods</li>
+                                            <li>Damplein 35</li>
+                                            <li>2000 Antwerp</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-min-12 col-md-4">
+                                <img src="images/evening/diamondball.png" alt="Event Single"></a>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="divider divider-center">
+                                <i class="icon-circle"></i>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <h1><a id="conference"></a>Conference</h1>
+                            <blockquote class="topmargin bottommargin" style="text-align: justify;">
+                                A goldmine of compelling ideas awaits you. Listen to powerful local and international stories. Get connected to propel these ideas to action. Together with the University of Antwerp, the E.R.I.C board will be hosting a conference day filled with interesting speakers, interactive workshops, conference stands and country booths. More information soon... Stay tuned
+                            </blockquote>
+                        </div>
                     </div>
                 </div>
-            </header>
-        </div>
-
-        <div class="row">
-            <div class="content-wrap">
-
-                <div class="container clearfix">
-                    <h1><a id="day-activities"></a>Day activities</h1>
-
-                      <blockquote class="topmargin bottommargin">
-                        <p style="text-align: justify;">Dear guests!<br>
-			Are you ready to experience the real Belgium? Are you ready to be indulged?
-			We present you day activities that are:
-			<ul>
-				<li>Unique: Experience activities exclusively created for the EUCO!
-				<li>Intimate: Small groups ensure close participation and the ideal opportunity to meet new people!
-				<li>Authentic: Think Belgian! Chocolate, Beer, Diamonds, Design, Fashion, …!
-			</ul>
-			    Teasers and more info coming soon</p>
-			</blockquote>
-
-      <div class="divider divider-center">
-          <i class="icon-circle"></i>
-      </div>
-                    <h1><a id="evening-activities"></a>Evening activities</h1>
-                    <blockquote class="topmargin bottommargin">
-                      <p style="text-align: justify;">
-                    Don't let our nights be ordinary, but exceptional as ONE big happy Rotaract Family!<br>
-
-                    <p><b>Fluo-Elrow-Bash</b><br>
-                    An experience where spectacle, music, color and happiness, essential elements of elrow’s DNA, get together to create that unique and involving experience that our partypeople get themselves into as soon as they cross the front door regardless of city, country, continent or time of the day… Thanks to all these components elrow mutates, together with all it’s public, into a great family that enjoys this experience up-close and personal, something only achieved thanks to an absolute connection between the show, the artists, performers and public alike. Fun and uninhibited entertainment make elrow a unique and unrepeatable experience. Come and join us!</p>
-
-                    <p><b>Food Truck Festival</b><br>
-                    It's time to get outside and bring the community back together. Bring your appetite for the tastiest food on wheels. These vibrant and edgy food havens serve up delicious food from over the world.
-
-                    <p><b>Nautical Marine Party</b><br>
-                    Ay Matey! Swim over for an epic nautical marine party. You will feel like actually being out on the beach. Daydream about seaside and feel it!</blockquote>
-
-                    <div class="col_one_fourth nobottommargin">
-                        <div class="feature-box media-box">
-                            <div class="fbox-media div_partners_4">
-                                <img class="image_fade img-partners_4" src="images/Clubikon01.png" alt="BMW">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col_one_fourth nobottommargin">
-                        <div class="feature-box media-box">
-                            <div class="fbox-media div_partners_4">
-                                <img class="image_fade img-partners_4" src="images/Clubikon02.png" alt="Favro?">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col_one_fourth nobottommargin ">
-                        <div class="feature-box media-box">
-                            <div class="fbox-media div_partners_4">
-                                <img class="image_fade img-partners_4" src="images/Felixpakhuis.png" alt="City of Antwerp">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col_one_fourth nobottommargin col_last">
-                        <div class="feature-box media-box">
-                            <div class="fbox-media div_partners_4">
-                                <img class="image_fade img-partners_4" src="images/Theshop.png" alt="Mini">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="divider divider-center">
-                        <i class="icon-circle"></i>
-                    </div>
-                    <h1><a id="gala-evening"></a>Gala evening</h1>
-
-                  <blockquote class="topmargin bottommargin" style="text-align: justify;">Urban ... new ... green ... industrial ...<br>
-                      Bringing you to a green piece of ground where you feel the diversity of the city of Antwerp, but even the history is our aim for the EUCO gala dinner location of 2018.
-                      Be prepared for an unforgettable evening with a great menu, extensive choice of drinks, best catering service, vibrant music, ... all with a Belgian "celebration" touch!
-                      Stay tuned for more info!</blockquote>
-
-                      <div class="col_one_fourth nobottommargin">
-                          <div class="feature-box media-box">
-                              <div class="fbox-media div_partners_4">
-                                  <img class="image_fade img-partners_4" src="images/Gala01.png" alt="BMW">
-                              </div>
-                          </div>
-                      </div>
-
-                      <div class="col_one_fourth nobottommargin">
-                          <div class="feature-box media-box">
-                              <div class="fbox-media div_partners_4">
-                                  <img class="image_fade img-partners_4" src="images/Gala02.png" alt="Favro?">
-                              </div>
-                          </div>
-                      </div>
-
-                      <div class="col_one_fourth nobottommargin ">
-                          <div class="feature-box media-box">
-                              <div class="fbox-media div_partners_4">
-                                  <img class="image_fade img-partners_4" src="images/Gala03.png" alt="City of Antwerp">
-                              </div>
-                          </div>
-                      </div>
-
-                      <div class="col_one_fourth nobottommargin col_last">
-                          <div class="feature-box media-box">
-                              <div class="fbox-media div_partners_4">
-                                  <img class="image_fade img-partners_4" src="images/Gala04.png" alt="Mini">
-                              </div>
-                          </div>
-                      </div>
-                      <div class="divider divider-center">
-                          <i class="icon-circle"></i>
-                      </div>
-                    <h1><a id="conference"></a>Conference</h1>
-
-                  <blockquote class="topmargin bottommargin" style="text-align: justify;">A goldmine of compelling ideas awaits you. Listen to powerful local and international stories. Get connected to propel these ideas to action.
-                  Together with the University of Antwerp, the E.R.I.C board will be hosting a conference day filled with interesting speakers, interactive workshops, conference stands and country booths.
-                  More information soon... Stay tuned!</blockquote>
-                </div>
-
             </div>
-        </div>
 
-        <footer id="footer" class="dark">
-            <div id="copyrights">
-                <div class="container clearfix">
-                    <div class="col_half">
-                        <img src="images/euco-footerlogo.png" alt="" class="footer-logo">
-                        <img src="images/eric_logo.png" class="footer-logo-eric">
-
-                    </div>
-                    <div class="col_half col_last tright">
-                        <div class="copyrights-menu copyright-links fright clearfix">
-                            <a href="termsandconditions.html">Terms and conditions</a>/<a href="faq.html">FAQs</a>/<a href="contact.html">Contact</a>
+            <footer id="footer" class="dark">
+                <div id="copyrights">
+                    <div class="container clearfix">
+                        <div class="col_half">
+                            <img src="images/euco-footerlogo.png" alt="" class="footer-logo">
+                            <img src="images/eric_logo.png" class="footer-logo-eric">
+                        </div>
+                        <div class="col_half col_last tright">
+                            <div class="copyrights-menu copyright-links fright clearfix">
+                                <a href="termsandconditions.html">Terms and conditions</a>/<a href="faq.html">FAQs</a>/<a href="contact.html">Contact</a>
+                            </div>
+                        </div>
+                        <div class="col_half col_last tright">
+                            <div class="copyrights-menu copyright-links fright clearfix">
+                                <a href="https://www.facebook.com/EUCOAntwerp2018" class="social-icon si-small si-borderless nobottommargin si-facebook">
+                                    <i class="icon-facebook"></i>
+                                    <i class="icon-facebook"></i>
+                                </a>
+                                <a href="https://www.instagram.com/eucoantwerp2018/" class="social-icon si-small si-borderless nobottommargin si-instagram">
+                                    <i class="icon-instagram"></i>
+                                    <i class="icon-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="fright">
+                            <div class="fright clearfix center-mobile">
+                                Copyrights &copy; 2017 EUCO 2018
+                            </div>
                         </div>
                     </div>
-
-                    <div class="col_half col_last tright">
-                        <div class="copyrights-menu copyright-links fright clearfix">
-                            <a href="https://www.facebook.com/EUCOAntwerp2018" class="social-icon si-small si-borderless nobottommargin si-facebook" target="_blank" >
-                                <i class="icon-facebook"></i>
-                                <i class="icon-facebook"></i>
-                            </a>
-                            <a href="https://www.instagram.com/eucoantwerp2018/" class="social-icon si-small si-borderless nobottommargin si-instagram" target="_blank" >
-                                <i class="icon-instagram"></i>
-                                <i class="icon-instagram"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="fright">
-                        <div class="fright clearfix center-mobile">
-                            Copyrights &copy; 2017 EUCO 2018
-                        </div>
-                    </div>
-
                 </div>
-            </div>
-
-        </footer>
-
+            </footer>
         </div>
 
         <script type="text/javascript" src="js/functions.js"></script>
 
         <script src="js/main.js"></script>
 
-</body>
+    </body>
 </html>

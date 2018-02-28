@@ -656,7 +656,7 @@ abbr[data-original-title] {
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
-    /* 
+    /*
     Aanpassing blockquote (gedaan door Thomas), Grootte font
     Heeft betrekking op het probleem dat ontstond bij de programma pagina. Vorige font-size: 17.5px;
     */
@@ -1550,7 +1550,7 @@ table th[class*="col-"] {
 .table > thead > tr.success > th,
 .table > tbody > tr.success > th,
 .table > tfoot > tr.success > th {
-  background-color: #dff0d8;
+  background-color: #9fb7ae;
 }
 .table-hover > tbody > tr > td.success:hover,
 .table-hover > tbody > tr > th.success:hover,
